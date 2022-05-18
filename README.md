@@ -1,2 +1,8 @@
 # TRAFFIC_SIGNAL_IDENTIFICATION_WIRELESS_NETWORKS
 The project is about the Traffic Signal Identification for Blind people using Wireless networks.
+# Abstract
+The main aim of this system is to recognize the traffic signal pattern and obstacle detection and guides blind people to travel independently in unknown areas. Ultrasonic sensor which is used to detect obstacle from the user position consists of 3 major parts: A transmitter, a receiver and a timer. To measure a distance the timer triggers the transmitter which emits a series of pulses, and then the timer waits until the receiver detects the reflection of the pulses and stops the timer. Whenever the blind people start walking, then the ultrasonic sensor senses any obstacles and pit holes and provides indication to the microcontroller. Using RF transmission, traffic light information is passed to microcontroller. Then the Voice IC attached to the controller notify the blind people about the obstacle and the color of traffic signal to them using Earphone. This developed system is a low cost, user friendly aid which provide a safe walking environment for the visually impaired people.
+<br>
+![Architectural design of Traffic signal identification for visually impaired](https://user-images.githubusercontent.com/71168865/168995803-60b6258d-79ea-49b7-b087-5288108305c6.jpg)
+![Flow chart of Traffic light module](https://user-images.githubusercontent.com/71168865/168995852-1b7d5df7-8da6-49aa-8775-73142db970b1.png)
+![Flow chart design](https://user-images.githubusercontent.com/71168865/168995900-689c6d71-83e6-441c-b868-37f2e7cd9154.jpg)
